@@ -1,0 +1,66 @@
+.education-details-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  background: #fff;
+}
+
+.education-details-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.education-form .form-group {
+  margin-bottom: 15px;
+}
+
+.education-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.education-form input {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.education-form input:disabled {
+  background: #f9f9f9;
+}
+
+.education-form button {
+  width: 100%;
+  background:  #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.education-form button:hover {
+  background:  #45a049;
+}
+
+.error-box {
+  margin-top: 15px;
+  color: #a94442;
+  background: #f2dede;
+  border: 1px solid #ebccd1;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.success-box {
+  margin-top: 15px;
+  color: #3c763d;
+  background: #dff0d8;
+  border: 1px solid #d6e9c6;
+  padding: 10px;
+  border-radius: 4px;
+}

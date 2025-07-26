@@ -1,0 +1,106 @@
+.worker-view-container {
+  padding: 40px;
+  max-width: 1000px;
+  margin: auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.worker-view-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.msg {
+  text-align: center;
+  color: green;
+  margin-bottom: 10px;
+}
+
+.worker-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.worker-table th,
+.worker-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.worker-table th {
+  background-color: #1976d2;
+  color: white;
+}
+
+.worker-table td button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.worker-table td .delete-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.worker-table td button:hover {
+  opacity: 0.9;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.modal-content {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.modal-content input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.modal-actions button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.modal-actions button:first-child {
+  background-color: #4caf50;
+  color: white;
+}
+
+.modal-actions button:last-child {
+  background-color: #ccc;
+}
