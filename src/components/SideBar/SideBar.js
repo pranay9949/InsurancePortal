@@ -106,10 +106,10 @@ const SideBar = ({ isOpen, onClick }) => {
         <Link to="/benefit"><h4>Benefit Issuance</h4></Link>
       </div>
 
-      <div className="sidebar-items">
+      <Link to="/reports"><div className="sidebar-items" >
         <FaChartBar size={20} className="icon" />
         <h4>Reports</h4>
-      </div>
+      </div></Link>
 
       <div className="sidebar-items parent" onClick={() => toggleSubMenu("Admin")}>
         <FaUserCog size={20} className="icon" />

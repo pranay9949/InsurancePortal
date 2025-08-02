@@ -1,7 +1,10 @@
+import { useEffect } from "react";
 import "./dashboard.css";
 import { FaShoppingCart, FaMoneyBillAlt, FaUserTimes, FaHeart } from "react-icons/fa";
+import axios from "axios";
 
 export const Dashboard = () => {
+ 
   const cards = [
     {
       title: "No. of Plans Available",
@@ -32,7 +35,7 @@ export const Dashboard = () => {
       color: "linear-gradient(135deg, #00c6ff, #0072ff)",
     },
   ];
-
+  
   return (
     <div className="dashboard-container">
       

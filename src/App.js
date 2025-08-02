@@ -20,6 +20,7 @@ import CreatePlan from './pages/admin/CreatePlan';
 import ViewPlan from "./pages/admin/ViewPlan"
 import CreateCaseWorker from './pages/admin/CreateCaseWorker';
 import ViewCaseWorker from './pages/admin/ViewCaseWorker';
+import Reports from './pages/reports/Reports';
 
 function App() {
   return (
@@ -58,7 +59,7 @@ function App() {
                <Route path = "/view-caseworker" element={<ViewCaseWorker/>}></Route>
 
 
-
+ <Route path = "/reports" element={<Reports/>}></Route>
     </Routes>
     </ContextProvider>
       </>
