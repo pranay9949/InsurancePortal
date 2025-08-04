@@ -8,7 +8,7 @@ export const Dashboard = () => {
   const cards = [
     {
       title: "No. of Plans Available",
-      number: 5,
+      number: 10,
       date: "May - Oct 2025",
       icon: <FaShoppingCart size={32} />,
       color: "linear-gradient(135deg, #7f7fd5, #86a8e7)",
